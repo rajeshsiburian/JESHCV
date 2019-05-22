@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+}
+
+.bigger {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 800;
+  padding: 20px;
+  text-transform: uppercase;
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+
+.text {
+  max-width: 600px;
+  width: 100%;
+  line-height: 24px;
+  text-align: left;
+  color: #404040;
+  padding: 20px;
+
+}
+
+
+
+
+@keyframes revealRTL {
+  0%{
+    width: 0;
+    right: 0;
+  }
+  65%{
+    width: 100%;
+    right: 0;
+  }
+  100% {
+    width: 0;
+    right: 100%;
+  }
+}
+
+@keyframes revealLTR {
+  0%{
+    width: 0;
+    left: 0;
+  }
+  65%{
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+
+
+
+@keyframes textHidden {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

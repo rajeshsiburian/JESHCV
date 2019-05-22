@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import paspot from './paspot.jpg';
+import '../css/loads.css';
 
 
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div className="welcome" style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
+        <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4"></span>
           <Cell col={12}>
             <img
-              src="https://yt3.ggpht.com/a-/AN66SAynRGG_D-D4k5jUZyCJxl7NvPk-XM3AP81MsQ=s900-mo-c-c0xffffffff-rj-k-no"
+              src={paspot}
               alt="Rajesh Siburian"
               className="avatar-img"
               />

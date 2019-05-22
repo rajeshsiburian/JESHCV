@@ -22,8 +22,8 @@ class Resume extends Component {
             </div>
             <div className="resume-right-coll">
             <h4 style={{paddingTop: '0em', textAlign: 'center'}}>CEO REALIZE</h4>
-            <hr style={{borderTop: '3px solid #fff', width: '100%'}}/>
-            <hr style={{borderTop: '3px solid #4484F4', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid rgb(222, 216, 164)', width: '100%'}}/>
+            <hr style={{borderTop: '3px solid rgb(0, 111, 131)', width: '50%'}}/>
             <h5>Phone</h5>
             <p>+628 15 3653 3943</p>
             <h5>Email</h5>
@@ -32,9 +32,9 @@ class Resume extends Component {
             <p>realize.com</p>
             <h5>Address</h5>
             <p>UGM Residence, Yogyakarta, Indonesia</p>
-            <hr style={{borderTop: '3px solid #4484F4', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid rgb(0, 111, 131)', width: '50%'}}/>
             <h4 style={{textAlign: 'center'}}>Personal Skills</h4>
-              <Skills
+              <Skills 
                 skill="Public Speaking"
                 progress={70}
                 />
@@ -72,19 +72,19 @@ class Resume extends Component {
             <p style={{textAlign: 'center'}}>MS.Office - Intermediate</p>
             <p style={{textAlign: 'center'}}>Visual studio code- Intermediate</p>
             <p style={{textAlign: 'center'}}>Adobe Indesign - Beginner</p>
-            <hr style={{borderTop: '3px solid #4484F4', width: '15%'}}/>
+            <hr style={{borderTop: '3px solid rgb(0, 111, 131)', width: '15%'}}/>
             <h4 style={{textAlign: 'center'}}>LANGUAGE PROFICIENCY</h4>
             <p style={{textAlign: 'center'}}>Bahasa Indonesia and English</p>
-            <hr style={{borderTop: '3px solid #4484F4', width: '15%'}}/>
+            <hr style={{borderTop: '3px solid rgb(0, 111, 131)', width: '15%'}}/>
             <h4 style={{textAlign: 'center'}}>REFERENCE</h4>
             <p style={{textAlign: 'center'}}>Available on Request</p>
             </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2 style={{color: '#4484F4', fontFamily: 'tahoma black'}}>RAJESH SIBURIAN</h2>
+            <h2 style={{color: 'rgb(0, 111, 131)', fontFamily: 'tahoma black'}}>RAJESH SIBURIAN</h2>
             <p>Students in computer science and information systems from Universitas Gadjah Mada 
             with experience in designing user interfaces, user experience and Digital Marketing. Currently active as a student and is the Chief at his startup. for him, kindness is a virtue and he believes that every lesson, experience, and support from people around him are what makes him today.</p>
-            <h3 style={{color: '#4484F4', fontFamily: 'source sans pro semibold'}}>EDUCATION</h3>
+            <h3 style={{color: 'rgb(0, 111, 131)', fontFamily: 'source sans pro semibold'}}>EDUCATION</h3>
             <div className="resume-right-colo" col={8}>
             <Education 
               startYear={2017}
@@ -101,7 +101,7 @@ class Resume extends Component {
                  schoolDescription="Graduate from majoring in Natural Science"
                   /></div>
 
-              <h3 style={{color: '#4484F4', fontFamily: 'source sans pro semibold'}}>ORGANIZATIONS</h3>
+              <h3 style={{color: 'rgb(0, 111, 131)', fontFamily: 'source sans pro semibold'}}>ORGANIZATIONS</h3>
               <div className="resume-right-colo" col={8}>
             <Organization
               startYear={2018}
@@ -126,7 +126,7 @@ class Resume extends Component {
                 jobDescription="Coordinator of public relations at the school."
                 /></div>
 
-<h3 style={{color: '#4484F4', fontFamily: 'source sans pro semibold'}}>EXPERIENCES</h3>
+<h3 style={{color: 'rgb(0, 111, 131)', fontFamily: 'source sans pro semibold'}}>EXPERIENCES</h3>
             <div className="resume-right-colo" col={8}>
             <Experience 
               startYear={2018}
